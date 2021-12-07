@@ -1,0 +1,12 @@
+# Site settings
+title: Scramb Docs
+email: jastinlinggar@gmail.com
+description: >
+  a useful package for some random functions related to javascript with few lines and types.
+baseurl: "/scramb/" # the subpath of your site, e.g. /blog/
+url: "https://jastinxyz.github.io/" # the base hostname & protocol for your site
+github_username: JastinXyz
+git_repo: scramb
+
+# Build settings
+markdown: kramdown
