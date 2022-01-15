@@ -18,13 +18,13 @@
     <div id="#"></div>
     <h2 class="text-center mt-3">SCRAMB</h2>
     <div class="d-flex justify-content-center mb-1">
-        <a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/" target="__blank"><img src="https://img.shields.io/npm/v/scramb?label=Latest%20Version&style=for-the-badge"></a>
+        <a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/" target="__blank"><img src="https://img.shields.io/npm/v/scramb?label=Current%20Version&style=for-the-badge"></a>
     </div>
     <div class="d-flex justify-content-center mb-2">
         <a class="text-decoration-none" href="https://www.npmjs.com/package/scramb" target="__blank"><img src="https://img.shields.io/npm/dt/scramb?style=for-the-badge"></a>
     </div>
     <p class="text-center px-2">a useful package for some random functions related to javascript with few lines and types.</p>
-    <small class="text-secondary d-flex justify-content-center">Current Version:&nbsp;<a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/v/2.0.5" target="__blank">v2.0.5</a>&nbsp;●&nbsp;Latest Update:&nbsp;<a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/v/2.0.5" target="__blank">Dec 6, 2021</a></small>
+    <small class="text-secondary d-flex justify-content-center">Current Version:&nbsp;<a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/v/3.0.0" target="__blank">v3.0.0</a>&nbsp;●&nbsp;Latest Update:&nbsp;<a class="text-decoration-none" href="https://www.npmjs.com/package/scramb/v/3.0.0" target="__blank">Jan 15, 2022</a></small>
     <hr>
     <h4 class="text-center">Comparison</h4>
     <p class="text-secondary text-center mb-3">Example Password Generator.</p>
@@ -109,8 +109,8 @@ console.log(id) // json result (id.result for plain text result)</code></pre>
     <h4 class="text-center">Functions</h4>
     <div class="mb-3">
     <h5>True False</h5>
-    <p class="mb-2">Random True or False</p>
-    <pre><code class="language-javascript">&lt;scramb>.trueOrFalse()</code></pre>
+    <p class="mb-2">Boolean</p>
+    <pre><code class="language-javascript">&lt;scramb>.boolean()</code></pre>
     </div>
     <hr class="style" />
     <div class="mb-3">
@@ -169,10 +169,55 @@ console.log(id) // json result (id.result for plain text result)</code></pre>
                         <p class="mb-2">The result is a random number between &lt;min> and &lt;max></p>
                         <pre><code class="language-javascript">&lt;scramb>.minMax("min number", "max number")</code></pre>
                         </div>
+         <hr class="style" />
+                    <div class="mb-3">
+                        <h5>Random User Agent</h5>
+                        <p class="mb-2">Generate random user agent</p>
+                        <pre><code class="language-javascript">&lt;scramb>.userAgents()</code></pre>
+                        </div>
+        <hr class="style" />
+                    <div class="mb-3">
+                        <h5>Email Checker</h5>
+                        <p class="mb-2">is Email?</p>
+                        <pre><code class="language-javascript">&lt;scramb>.isEmail("STRING")</code></pre>
+                        </div>
+        <hr class="style" />
+                    <div class="mb-3">
+                        <h5>URL Checker</h5>
+                        <p class="mb-2">is URL?</p>
+                        <pre><code class="language-javascript">&lt;scramb>.isURL("STRING")</code></pre>
+                        </div>
+        <hr class="style" />
+                    <div class="mb-3">
+                        <h5>Rock Paper Scissors</h5>
+                        <p class="mb-2">rps</p>
+                        <pre><code class="language-javascript">&lt;scramb>.rps()</code></pre>
+                        </div>
                         </div>
     <hr>
     <div id="changelog">
         <h4 class="text-center">Changelog</h4>
+        <p><a href="https://www.npmjs.com/package/scramb/v/3.0.0" target="__blank">v3.0.0</a></p>
+        <ul>
+            <li>
+                [/] Changed <scramb>.trueOrFalse() to <scramb>.boolean()
+            </li>
+            <li>
+                [+] Docs At https://jastinxyz.github.io/scramb/
+            </li>
+            <li>
+                [+] <code>&lt;scramb>.userAgents()</code>
+            </li>
+             <li>
+                [+] <code>&lt;scramb>.isEmail("STRING")</code>
+            </li>
+             <li>
+                [+] <code>&lt;scramb>.isURL("STRING")</code>
+            </li>
+             <li>
+                [+] <code>&lt;scramb>.rps()</code>
+            </li>
+        </ul>
         <p><a href="https://www.npmjs.com/package/scramb/v/2.0.5" target="__blank">v2.0.5</a></p>
         <ul>
             <li>
